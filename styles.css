@@ -162,11 +162,45 @@ h1, h2, h3 {
     letter-spacing: 1px;
     transition: all 0.3s ease;
     font-weight: 400;
+    margin-bottom: 3rem;
 }
 
 .email-link:hover {
     color: var(--black);
     letter-spacing: 2px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.instagram-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--gold);
+    border-radius: 50px;
+}
+
+.instagram-link:hover {
+    background-color: var(--gold);
+    color: var(--cream);
+    transform: translateY(-2px);
+}
+
+.instagram-link svg {
+    width: 20px;
+    height: 20px;
 }
 
 /* Footer */
